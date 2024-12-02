@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LENIS OMAR - Portafolio Personal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/a076d05399.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar is-fixed-top is-primary" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#inicio">
+                    <strong>Portafolio</strong>
+                </a>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div id="navbarMenu" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="#inicio">Inicio</a>
+                    <a class="navbar-item" href="#sobre-mi">Sobre Mí</a>
+                    <a class="navbar-item" href="#proyectos">Proyectos</a>
+                    <a class="navbar-item" href="#experiencia">Experiencia</a>
+                    <a class="navbar-item" href="#contacto">Contacto</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero is-primary is-fullheight">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <h1 class="title">LENIS OMAR DELGADO TERRONES</h1>
+                    <h2 class="subtitle">Diseñador y Desarrollador Web</h2>
+                    <p>Creando experiencias digitales únicas y atractivas</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="section">
+            <div class="container">
+                <h2 class="title">Sobre Mí</h2>
+                <p>Soy un apasionado diseñador y desarrollador web con más de 1 año de experiencia en la creación de soluciones digitales innovadoras. Mi objetivo es combinar diseño atractivo con funcionalidad intuitiva para crear experiencias de usuario excepcionales.</p>
+                <h3 class="subtitle mt-5">Habilidades</h3>
+                <div class="tags">
+                    <span class="tag is-info">Diseño web</span>
+                    <span class="tag is-link">Diseño web responsivo</span>
+                    <span class="tag is-success">SEO y Marketing Digital</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="section">
+            <div class="container">
+                <h2 class="title">Proyectos</h2>
+                <div class="columns is-multiline">
+                    <div class="column is-one-third">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="https://www.hostingplus.pe/wp-content/uploads/2024/09/importancia-diseno-web-profesional1.jpg" alt="Proyecto 1">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <p class="title is-5">Diseño Sitio Web</p>
+                                <p>Renovación completa del sitio web para una empresa de tecnología, mejorando la experiencia del usuario y aumentando las conversiones en un 30%.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-one-third">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="https://blog.hubspot.es/hubfs/media/disenosdepaginaswebnavidenosejemplosabritas.jpeg" alt="Proyecto 2">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <p class="title is-5">Diseño web con temática de Navidad</p>
+                                <p>Un diseño web festivo inspirado en la magia de la Navidad, con elementos visuales como colores cálidos y detalles navideños.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-one-third">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="https://parzibyte.me/blog/wp-content/uploads/2020/10/Sistema-escolar-PHP-Mostrar-estudiantes.png" alt="Proyecto 3">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <p class="title is-5">CRUD Asistencia Alumnos</p>
+                                <p>Aplicación CRUD para gestionar asistencia estudiantil de forma eficiente y organizada.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section">
+            <div class="container">
+                <h2 class="title">Contacto</h2>
+                <form>
+                    <div class="field">
+                        <label class="label" for="nombre">Nombre</label>
+                        <div class="control">
+                            <input class="input" type="text" id="nombre" name="nombre" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label" for="email">Correo Electrónico</label>
+                        <div class="control">
+                            <input class="input" type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label" for="mensaje">Mensaje</label>
+                        <div class="control">
+                            <textarea class="textarea" id="mensaje" name="mensaje" required></textarea>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <button type="submit" class="button is-primary">Enviar Mensaje</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>&copy; 2024 LENIS OMAR. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            if ($navbarBurgers.length > 0) {
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</html>
+
+
